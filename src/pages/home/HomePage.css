@@ -1,0 +1,5 @@
+.home-image img{
+    min-width: 500px;
+    min-height: 500px;
+    background-position: center;
+}

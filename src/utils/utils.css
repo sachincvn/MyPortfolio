@@ -1,0 +1,249 @@
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.align-center{
+    text-align: center;
+    align-items: center;
+}
+
+.align-self{
+    align-self: center;
+}
+
+.m-10{
+    margin: 10px;
+}
+
+.m-20{
+    margin: 20px;
+}
+
+.m-40{
+    margin: 40px;
+}
+
+.m-70{
+    margin: 70px;
+}
+
+
+.mx-10{
+    margin: 0 10px;
+}
+
+.mx-20{
+    margin: 0 20px;
+}
+
+.mx-40{
+    margin: 0 40px;
+}
+
+.mx-70{
+    margin: 0 70px;
+}
+
+.my-10{
+    margin: 10px 0;
+}
+
+.my-20{
+    margin: 20px 0;
+}
+
+.my-40{
+    margin: 40px 0;
+}
+
+.my-70{
+    margin: 70px 0;
+}
+
+.p-10{
+    padding: 10px;
+}
+
+.p-20{
+    padding: 20px;
+}
+
+.p-40{
+    padding: 40px;
+}
+
+.p-70{
+    padding: 70px;
+}
+
+
+.px-10{
+    padding: 0 10px;
+}
+
+.px-20{
+    padding: 0 20px;
+}
+
+.px-40{
+    padding: 0 40px;
+}
+
+.px-70{
+    padding: 0 70px;
+}
+
+.py-10{
+    padding: 10px 0;
+}
+
+.py-20{
+    padding: 20px 0;
+}
+
+.py-40{
+    padding: 40px 0;
+}
+
+.py-70{
+    padding: 70px 0;
+}
+
+.fs-16{
+    font-size: 16;
+}
+
+.fs-20{
+    font-size: 20;
+}
+
+.fs-28{
+    font-size: 28;
+}
+
+.fs-30{
+    font-size: 30;
+}
+
+.fs-b-bold{
+    font-weight: 900;
+}
+
+.fs-bold{
+    font-weight: 700;
+}
+
+.fs-m-bold{
+    font-weight: 500;
+}
+
+.fs-light{
+    font-weight: 400;
+}
+
+.fs-x-light{
+    font-weight: 200;
+}
+
+.m-container{
+    min-width: 1200px;
+    margin: 0 70px;
+    padding: 10px;
+    height: 90vh;
+}
+
+.half-container{
+    width: 50%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+h1{
+    font-size: 46px;
+}
+
+h2{
+    font-size: 36px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+p{
+    font-size: 14px;
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+.primary-color{
+    color: var(--primary-color);
+}
+
+.secondary-color{
+    color: var(--secondary-color);
+}
+
+.bg-color{
+    color: var(--bg-color);
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+a:hover{
+    font-weight: 600;
+}
+.primary-btn{
+    height: 40px;
+    padding: 5px 30px;
+    padding-right: 50px;
+    background-color: var(--light-blue-color);
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 40px;
+    align-self: self-start;
+    position: relative;
+    transition: .5s ease;
+}
+
+.primary-btn:hover{
+    cursor: pointer;
+    padding-right: 60px;
+}
+
+.primary-btn::before{
+    content: '';
+    position: absolute;
+    background: url("https://cdn-icons-png.flaticon.com/512/3236/3236907.png") no-repeat center center/cover;
+    top: 0px;
+    right: 0px;
+    height: 40px;
+    width: 40px;
+    z-index: 999;
+}
