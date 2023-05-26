@@ -1,0 +1,27 @@
+
+.projects{
+    display: flex;
+    gap: 10px;
+    margin: 0 10%;
+}
+
+.project-thumb{
+    width: 40%;
+    height: 40%;
+}
+.project-thumb img{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.project-desctiption{
+    width: 40%;
+}
+
+.project-tag p{
+    padding: 5px;
+    color: var(--bg-color);
+}

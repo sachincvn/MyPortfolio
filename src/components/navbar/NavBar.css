@@ -3,13 +3,13 @@ nav {
     padding: 0 80px;
 }
 
-.menu ul li {
+.navMenu ul li {
     list-style-type: none;
     margin: 0 18px;
     position: relative;
 }
 
-.menu ul li a:hover::before {
+.navMenu ul li a:hover::before {
     content: ' ';
     height: 2px;
     background-color: var(--secondary-color);

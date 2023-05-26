@@ -3,6 +3,7 @@
 }
 
 .flex-col{
+    display: flex;
     flex-direction: column;
 }
 .justify-between{
@@ -17,14 +18,57 @@
     justify-content: space-around;
 }
 
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.flex-wrap{
+    flex: wrap;
+}
+
 .align-center{
     text-align: center;
     align-items: center;
 }
 
+.align-start{
+    text-align: start;
+    align-items: flex-start;
+}
 .align-self{
     align-self: center;
 }
+
+.self-start{
+    align-self: flex-start;
+}
+
+.self-end{
+    align-self: flex-end;
+}
+
+
+.gap-10{
+    gap: 10px;
+}
+
+.gap-20{
+    gap: 20px;
+}
+
+.gap-40{
+    gap: 40px;
+}
+
+.gap-70{
+    gap: 70px;
+}
+
+
 
 .m-10{
     margin: 10px;
@@ -73,6 +117,22 @@
 
 .my-70{
     margin: 70px 0;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.mt-40{
+    margin-top: 40px;
+}
+
+.mt-70{
+    margin-top: 70px;
 }
 
 .p-10{
@@ -161,15 +221,14 @@
 }
 
 .m-container{
-    min-width: 1200px;
     margin: 0 70px;
     padding: 10px;
-    height: 90vh;
+    display: flex;
 }
 
 .half-container{
-    width: 50%;
     height: 100%;
+    max-width: 48%;
     margin-right: 20px;
 }
 
@@ -202,6 +261,13 @@ p{
     color: var(--secondary-color);
 }
 
+.bg-primary-color{
+    background-color: var(--primary-color);
+}
+
+.bg-secondary-color{
+    background-color: var(--secondary-color);
+}
 .bg-color{
     color: var(--bg-color);
 }
